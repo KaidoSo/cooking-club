@@ -44,6 +44,10 @@ nav ul {
     padding-right: 1.5rem;
 }
 
+nav ul li {
+    font-size: 1.5rem;
+}
+
 ul li {
     padding: 0 10px;
 }
@@ -68,7 +72,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    justify-content: center;
 }
 
 footer {
@@ -116,4 +120,75 @@ footer {
     height: 1.5rem;
     border-radius: 5%;
     color: var(--orangeYellow);
+}
+
+/* recipe page */
+
+.recipe-wrapper {
+    width: 80%;
+    margin: 2rem 0;
+    display: flex;
+}
+
+.first-recipe {
+    border: 2px solid var(--burntSienna);
+}
+.second-recipe {
+    border: 2px solid var(--persianGreen);
+}
+.third-recipe {
+    border: 2px solid var(--sandyBrown);
+}
+
+.recipe-wrapper img {
+    width: 8em;
+}
+
+.recipe-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.recipe-title {
+    text-align: center;
+}
+
+.recipe-ingredients, .recipe-instructions {
+    width: 50%;
+    padding: 1rem;
+}
+
+.recipe-ingredients {
+    width: 50%;
+
+}
+
+/* contact page */
+
+.contact-container {
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.contact-wrapper {
+    width: 40%;
+    height: 20em;
+    border: 2px solid var(--sandyBrown);
+    margin: 2rem;
+    text-align: center;
+}
+
+.contact-image {
+    width: 10rem;
+    border-radius: 50%;
+    margin-top: 1rem;
+}
+
+.contact-text {
+    padding: 2rem;
+}
+
+.contact-name {
+    padding: 1rem 0;
 }

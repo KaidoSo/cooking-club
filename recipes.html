@@ -4,8 +4,83 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      type="text/css"
+    />
     <link rel="stylesheet" href="/assets/css/style.css" />
     <title>Recipes</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <img class="logo" src="assets/images/cooking_club_logo.png" alt="logo" />
+      <nav>
+        <ul>
+          <li class="nav-home"><a href="index.html">Home</a></li>
+          <li class="nav-recipes"><a href="recipes.html">Recipes</a></li>
+          <li class="nav-contact"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="recipe-container">
+      <article class="recipe-wrapper first-recipe">
+        <img
+          class="recipe-image image-one"
+          src="assets/images/recipe-image-1.jpg"
+          alt="recipe"
+        />
+        <div class="recipe-content">
+          <h2 class="recipe-title">Title</h2>
+          <div class="recipe-text">
+            <ul class="recipe-ingredients">
+              <li>first</li>
+              <li>second</li>
+              <li>third</li>
+            </ul>
+            <p class="recipe-instructions">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error,
+              at.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article class="recipe-wrapper second-recipe">
+        <img
+          class="recipe-image image-one"
+          src="assets/images/recipe-image-1.jpg"
+          alt="recipe"
+        />
+      </article>
+      <article class="recipe-wrapper third-recipe">
+        <img
+          class="recipe-image image-one"
+          src="assets/images/recipe-image-1.jpg"
+          alt="recipe"
+        />
+      </article>
+    </main>
+    <footer>
+      <button id="mode-toggle">Dark-Light</button>
+      <div class="social-media">
+        <ul>
+          <li class="list-item">
+            <a target="_blank" href="https://www.facebook.com/">
+              <i class="fa fa-facebook social-icon"></i>
+            </a>
+          </li>
+          <li class="list-item">
+            <a target="_blank" href="https://twitter.com/">
+              <i class="fa fa-twitter social-icon"></i>
+            </a>
+          </li>
+          <li class="list-item">
+            <a target="_blank" href="https://www.youtube.com/">
+              <i class="fa fa-youtube social-icon"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
 </html>
